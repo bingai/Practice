@@ -4,11 +4,13 @@
 class Sally 
 {
 public:
-    Sally();
+    Sally(int a, int b);
     ~Sally();
-    void printCrap();
+    void print();
 protected:
 private:
+    int regVar;
+    const int constVar;
 };
 
 #endif
